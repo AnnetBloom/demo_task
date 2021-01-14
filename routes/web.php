@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('article.create');
 });
+
+Route::get('/article', 'HomeController@article')->name('article.create');
+Route::post('/save-article', 'HomeController@storeArticle')->name('article.store');
+
+Route::get('/user', 'HomeController@user')->name('user.create');
+Route::post('/save-user', 'HomeController@storeUser')->name('user.store');
+
+Route::get('/project/{id}', 'HomeController@project')->name('project');
