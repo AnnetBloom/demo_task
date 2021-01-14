@@ -1,13 +1,13 @@
-Установка 
+<h4>Установка </h4>
 
-cd demo_task
-alias sail='bash vendor/bin/sail'
-sail up
-sail artisan migrate
-sail artisan db:seed
-
-/article - Добавить статью
-/user - Добавить пользователя
-/project/1 - Проект по :id
+<p>cd demo_task</p>
+<p>alias sail='bash vendor/bin/sail'</p>
+<p>sail up</p>
+<p>sail artisan migrate</p>
+<p>sail artisan db:seed</p>
+<br>
+<p>/article - Добавить статью</p>
+<p>/user - Добавить пользователя</p>
+<p>/project/1 - Проект по :id</p>
 
 
