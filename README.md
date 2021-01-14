@@ -1,7 +1,7 @@
 <h4>Установка </h4>
-
+<br>
 <p>requires php ^7.4|^8.0 </p>
-
+<br>
 <p>cd demo_task</p>
 <p>composer install</p>
 <p>alias sail='bash vendor/bin/sail'</p>
